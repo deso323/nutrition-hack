@@ -2,23 +2,33 @@
 
 Smart Nutrition and Healthy Lifestyle App
 
-## Tech Stack
+## Project Overview
 
-- **React Native + Expo** (Managed Workflow)
-- **TypeScript**
-- **Expo Router** (File-based routing)
-- **Supabase** (Planned backend; not yet configured)
+Nutrition Hack is a planned **native mobile application** for tracking nutrition, healthy eating habits, and overall wellness. The app will help users log meals, monitor calories and macronutrients, track water intake, and record physical activity — all through an intuitive, user-friendly interface.
 
-## MVP Priorities
+### App Direction
 
-1. Onboarding / Profile
+- **Platform:** Native mobile (cross-platform via Expo)
+- **Approach:** Managed workflow for rapid development and easy updates
+- **Target users:** Health-conscious individuals seeking a simple, effective nutrition tracking tool
+
+### Proposed Tech Stack
+
+- **Frontend:** React Native + Expo (Managed Workflow)
+- **Language:** TypeScript
+- **Routing:** Expo Router (File-based routing)
+- **Backend:** Supabase (Planned; not yet configured)
+
+### MVP Scope
+
+1. Onboarding / Profile setup
 2. Goals (calorie, macro targets)
 3. Calorie & Macro Tracking
 4. Food Diary
 5. Water Tracking
 6. Basic Activity / Workout Logging
 
-## Later Phases
+### Later Phases
 
 - Recipes & Meal Planning
 - Intermittent Fasting Tracker
@@ -27,7 +37,24 @@ Smart Nutrition and Healthy Lifestyle App
 - Personalized Recommendations (ML/AI)
 - Apple Health / Health Connect Integration
 
-## Getting Started (Development)
+### Setup Status
+
+⚠️ **Not yet runnable.** The repository contains project scaffolding (configuration files only). No application code has been written yet. The project is in the planning and setup phase.
+
+### Next Steps
+
+- [ ] Initialize Expo project with TypeScript and Expo Router
+- [ ] Set up Supabase project and configure environment variables
+- [ ] Implement onboarding and user profile screens
+- [ ] Build calorie and macro tracking features
+- [ ] Create food diary functionality
+- [ ] Add water tracking module
+- [ ] Develop basic activity/workout logging
+- [ ] Add testing and CI/CD pipeline
+
+### Getting Started (Development)
+
+Once the app code is initialized:
 
 ```bash
 # 1. Clone the repository
